@@ -1,7 +1,7 @@
 {
   "id": "org.qelectrotech.QElectroTech",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
+  "runtime-version": "5.15-22.08",
   "sdk": "org.kde.Sdk",
   "command": "qelectrotech",
   "rename-desktop-file": "qelectrotech.desktop",
@@ -72,12 +72,8 @@
         {
           "type": "git",
           "url": "https://github.com/qelectrotech/qelectrotech-source-mirror.git",
-          "tag": "0.8.0",
-          "commit": "664537c1787d5ca4d5420bb369668d67e9d72d84"
-        },
-        {
-          "type": "patch",
-          "path": "fix_appdata_file.patch"
+          "tag": "0.9",
+          "commit": "c7891bc4c27faf8491d3bc028504019de731135f"
         },
         {
           "type": "patch",
@@ -108,8 +104,8 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/45/be/d5940d365ebf256e490bc6c10837244e0b8dda08a7d790691767263c318d/qet_tb_generator-1.2.5.tar.gz",
-            "sha256": "37c3298602244f3152fbb7601caba9b4862bac782991fbb472eab91afb70d09c"
+            "url": "https://files.pythonhosted.org/packages/70/aa/ebde0dddfbde799a4e8cf0564e52f95089105a7f562739ee1d16ff5a495a/qet_tb_generator-1.3.1.tar.gz",
+            "sha256": "52c9836387d54bc30ea29272068ec156fc65c3905e0cb863afd9418abc3c0907"
         }
     ]
 }
