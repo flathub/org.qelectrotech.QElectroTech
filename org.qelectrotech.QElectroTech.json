@@ -36,10 +36,9 @@
       ],
       "sources": [
         {
-          "type": "git",
-          "url": "https://github.com/qelectrotech/qelectrotech-source-mirror.git",
-          "tag": "0.9",
-          "commit": "c7891bc4c27faf8491d3bc028504019de731135f"
+          "type": "archive",
+          "url": "https://github.com/qelectrotech/qelectrotech-source-mirror/releases/download/0.100/qelectrotech-0.100.tar.gz",
+          "sha256": "2a658df42fa9f8be95bf6dafae2a53ab47962af8afb7043f78a018b7ca6b7310"
         },
         {
           "type": "patch",
