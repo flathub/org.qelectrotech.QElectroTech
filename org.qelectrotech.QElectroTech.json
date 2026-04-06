@@ -38,8 +38,8 @@
         {
           "type": "git",
           "url": "https://github.com/qelectrotech/qelectrotech-source-mirror.git",
-          "tag": "0.9",
-          "commit": "c7891bc4c27faf8491d3bc028504019de731135f"
+          "tag": "0.100",
+          "commit": "f92992be794b08da543bafc2a3b0c1d948fb5689"
         },
         {
           "type": "patch",
