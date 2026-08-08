@@ -37,8 +37,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/qelectrotech/qelectrotech-source-mirror/archive/f92992be794b08da543bafc2a3b0c1d948fb5689.tar.gz",
-          "sha256": "b4306174c6b60c42a8fc4b999204bf4053b3a3b249372b88d61b4ed9f51d1341"
+          "url": "https://github.com/qelectrotech/qelectrotech-source-mirror/archive/refs/tags/0.100.tar.gz",
+          "sha256": "5eaab304e9ef7358671eb969ef8995ee659995b33ca04ddd6a0a7bfb0d7e3466"
         },
         {
           "type": "archive",
