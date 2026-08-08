@@ -42,14 +42,14 @@
         },
         {
           "type": "archive",
-          "url": "https://github.com/zeux/pugixml/archive/5a1892b321a38997e3e359069aea3fa35d49a5c6.tar.gz",
-          "sha256": "1c0a19e5928c153e26623b867990bb43fb7826e69bfba8f7b33dd326174d7df5",
+          "url": "https://github.com/zeux/pugixml/archive/refs/tags/v1.16.tar.gz",
+          "sha256": "357bcab8877dc9943f355d3a72daba1b053238ba955f50fa81586afb65090219",
           "dest": "pugixml"
         },
         {
           "type": "archive",
-          "url": "https://github.com/itay-grudev/SingleApplication/archive/cbe496bc01e6515f9692824bf36d5136e8208c85.tar.gz",
-          "sha256": "46245519e14864343da0633c70217fe783c3da05d1d6786ac58aab86d34220e6",
+          "url": "https://github.com/itay-grudev/SingleApplication/archive/refs/tags/v3.5.3.tar.gz",
+          "sha256": "3b0ed428544c0b21cd7d3369468d3af544789fd0fbe31e493b7f311621acd7e9",
           "dest": "SingleApplication"
         },
         {
@@ -60,8 +60,8 @@
         },
         {
           "type": "archive",
-          "url": "https://github.com/jothepro/doxygen-awesome-css/archive/568f56cde6ac78b6dfcc14acd380b2e745c301ea.tar.gz",
-          "sha256": "698b004415895e86dfb8fe308506ca084e52b80630a18dd1d55252b13ebc4b1c",
+          "url": "https://github.com/jothepro/doxygen-awesome-css/archive/refs/tags/v2.3.4.tar.gz",
+          "sha256": "54d515327b559cd18c6f4d3e8a46e0facc635be1967fb69526f977285922960e",
           "dest": "doxygen-awesome-css"
         },
         {
