@@ -4,7 +4,7 @@
   "runtime-version": "5.15-25.08",
   "sdk": "org.kde.Sdk",
   "command": "qelectrotech",
-  "rename-desktop-file": "qelectrotech.desktop",
+  "rename-desktop-file": "org.qelectrotech.qelectrotech.desktop",
   "rename-appdata-file": "qelectrotech.appdata.xml",
   "rename-icon": "qelectrotech",
   "copy-icon": true,
@@ -36,10 +36,33 @@
       ],
       "sources": [
         {
-          "type": "git",
-          "url": "https://github.com/qelectrotech/qelectrotech-source-mirror.git",
-          "tag": "0.9",
-          "commit": "c7891bc4c27faf8491d3bc028504019de731135f"
+          "type": "archive",
+          "url": "https://github.com/qelectrotech/qelectrotech-source-mirror/archive/f92992be794b08da543bafc2a3b0c1d948fb5689.tar.gz",
+          "sha256": "b4306174c6b60c42a8fc4b999204bf4053b3a3b249372b88d61b4ed9f51d1341"
+        },
+        {
+          "type": "archive",
+          "url": "https://github.com/zeux/pugixml/archive/5a1892b321a38997e3e359069aea3fa35d49a5c6.tar.gz",
+          "sha256": "1c0a19e5928c153e26623b867990bb43fb7826e69bfba8f7b33dd326174d7df5",
+          "dest": "pugixml"
+        },
+        {
+          "type": "archive",
+          "url": "https://github.com/itay-grudev/SingleApplication/archive/cbe496bc01e6515f9692824bf36d5136e8208c85.tar.gz",
+          "sha256": "46245519e14864343da0633c70217fe783c3da05d1d6786ac58aab86d34220e6",
+          "dest": "SingleApplication"
+        },
+        {
+          "type": "archive",
+          "url": "https://github.com/qelectrotech/qelectrotech-elements/archive/3b12bc579b99932e3fe307ea1e44b8c1c6d1d5c9.tar.gz",
+          "sha256": "f05d3115ef5b8a67f9d73c11a59772dc429a51d705099d6fb9414eab954b6f58",
+          "dest": "elements"
+        },
+        {
+          "type": "archive",
+          "url": "https://github.com/jothepro/doxygen-awesome-css/archive/568f56cde6ac78b6dfcc14acd380b2e745c301ea.tar.gz",
+          "sha256": "698b004415895e86dfb8fe308506ca084e52b80630a18dd1d55252b13ebc4b1c",
+          "dest": "doxygen-awesome-css"
         },
         {
           "type": "patch",

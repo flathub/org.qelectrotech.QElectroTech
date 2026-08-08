@@ -4,27 +4,41 @@ Date: Fri, 20 Feb 2026 22:56:52 +0300
 Subject: [PATCH] Fix appdata paper cuts
 
 ---
- misc/qelectrotech.appdata.xml | 26 ++++++++++++++++++++------
- 1 file changed, 20 insertions(+), 6 deletions(-)
+ misc/qelectrotech.appdata.xml | 33 ++++++++++++++++++++++++++-------
+ 1 file changed, 26 insertions(+), 7 deletions(-)
 
 diff --git a/misc/qelectrotech.appdata.xml b/misc/qelectrotech.appdata.xml
-index dd06ab7..eb02119 100644
 --- a/misc/qelectrotech.appdata.xml
 +++ b/misc/qelectrotech.appdata.xml
-@@ -1,7 +1,8 @@
+@@ -1,5 +1,7 @@
  <?xml version="1.0" encoding="UTF-8"?>
- <!-- Copyright 2006-2023 The QElectroTech Team -->
+ <!-- Copyright 2006-2026 The QElectroTech Team -->
 -<application>
 - <id type="desktop">qelectrotech.desktop</id>
 +<component type="desktop-application">
 + <id>org.qelectrotech.QElectroTech</id>
 + <launchable type="desktop-id">qelectrotech.desktop</launchable>
   <metadata_license>MIT</metadata_license>
++ <icon type="stock">org.qelectrotech.QElectroTech</icon>
+@@ -6,6 +8,10 @@
   <project_license>GPL-2.0-or-later</project_license>
   <name>QElectroTech</name>
-@@ -83,9 +84,22 @@
-    QET は要素と回路図に XML 形式を利用し、回路図エディタ、要素エディタ、表題欄エディタを含みます。
-    </p>
+  <summary>Electrical diagram editor</summary>
++ <categories>
++  <category>Graphics</category>
++  <category>Engineering</category>
++ </categories>
+  <summary xml:lang="ar">مُحرّر مخططات كهربائية</summary>
+  <summary xml:lang="be">Elektrische schema editor</summary>
+  <summary xml:lang="ca">Editor d'esquemes elèctrics</summary>
+@@ -25,5 +26,5 @@
+  <content_rating type="oars-1.1"/>
+  <releases>
+-     <release version="0.9-dev" date="2021-02-21"/>
++     <release version="0.100" date="2026-01-25"/>
+  </releases>
+  <description>
+@@ -90,7 +91,20 @@
   </description>
 - <url type="homepage">http://qelectrotech.org</url>
 + <url type="homepage">https://qelectrotech.org</url>
@@ -37,13 +51,13 @@ index dd06ab7..eb02119 100644
 -  <screenshot type="default">http://download.tuxfamily.org/qet/screens/qelectrotech5.png</screenshot>
 +  <screenshot type="default">
 +    <image>https://qelectrotech.org/screenshots/qet_overview04.png</image>
-+ </screenshot>
++  </screenshot>
 +  <screenshot>
 +    <image>https://qelectrotech.org/screenshots/qet_overview06.png</image>
-+ </screenshot>
++  </screenshot>
 +  <screenshot>
 +    <image>https://qelectrotech.org/screenshots/qet_overview09.png</image>
-+ </screenshot>
++  </screenshot>
   </screenshots>
 - <updatecontact>qet@lists.tuxfamily.org</updatecontact>
 -</application>
@@ -51,4 +65,3 @@ index dd06ab7..eb02119 100644
 +</component>
 -- 
 2.53.0
-
