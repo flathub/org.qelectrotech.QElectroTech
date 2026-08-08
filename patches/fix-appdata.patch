@@ -17,7 +17,7 @@ diff --git a/misc/qelectrotech.appdata.xml b/misc/qelectrotech.appdata.xml
 - <id type="desktop">qelectrotech.desktop</id>
 +<component type="desktop-application">
 + <id>org.qelectrotech.QElectroTech</id>
-+ <launchable type="desktop-id">qelectrotech.desktop</launchable>
++ <launchable type="desktop-id">org.qelectrotech.QElectroTech.desktop</launchable>
   <metadata_license>MIT</metadata_license>
 + <icon type="stock">org.qelectrotech.QElectroTech</icon>
 @@ -6,6 +8,10 @@
