@@ -9,11 +9,7 @@
         {
             "type": "git",
             "url": "https://github.com/iwalton3/tkinter-standalone",
-            "commit": "88aa05075d90d393a29a484bce676e237d311082"
-        },
-        {
-            "type": "patch",
-            "path": "patches/tkinter-build.patch"
+            "commit": "8e78e38ef0cceb44a3a0062e1c314a4ff3f981db"
         }
     ],
     "modules": [
@@ -30,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://prdownloads.sourceforge.net/tcl/tcl8.6.17-src.tar.gz",
-                    "sha256": "a3903371efcce8a405c5c245d029e9f6850258a60fa3761c4d58995610949b31"
+                    "url": "https://prdownloads.sourceforge.net/tcl/tcl9.0.2-src.tar.gz",
+                    "sha256": "e074c6a8d9ba2cddf914ba97b6677a552d7a52a3ca102924389a05ccb249b520"
                 }
             ]
         },
@@ -40,7 +36,7 @@
             "buildsystem": "autotools",
             "subdir": "unix",
             "post-install": [
-                "chmod 755 /app/lib/libtk*.so"
+                "chmod 755 /app/lib/libtcl9tk*.so"
             ],
             "cleanup": [
                 "/bin",
@@ -49,8 +45,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://prdownloads.sourceforge.net/tcl/tk8.6.17-src.tar.gz",
-                    "sha256": "e4982df6f969c08bf9dd858a6891059b4a3f50dc6c87c10abadbbe2fc4838946"
+                    "url": "https://prdownloads.sourceforge.net/tcl/tk9.0.2-src.tar.gz",
+                    "sha256": "76fb852b2f167592fe8b41aa6549ce4e486dbf3b259a269646600e3894517c76"
                 }
             ]
         }

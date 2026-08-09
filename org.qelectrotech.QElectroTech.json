@@ -4,7 +4,7 @@
   "runtime-version": "5.15-25.08",
   "sdk": "org.kde.Sdk",
   "command": "qelectrotech",
-  "rename-desktop-file": "qelectrotech.desktop",
+  "rename-desktop-file": "org.qelectrotech.qelectrotech.desktop",
   "rename-appdata-file": "qelectrotech.appdata.xml",
   "rename-icon": "qelectrotech",
   "copy-icon": true,
@@ -36,10 +36,33 @@
       ],
       "sources": [
         {
-          "type": "git",
-          "url": "https://github.com/qelectrotech/qelectrotech-source-mirror.git",
-          "tag": "0.9",
-          "commit": "c7891bc4c27faf8491d3bc028504019de731135f"
+          "type": "archive",
+          "url": "https://github.com/qelectrotech/qelectrotech-source-mirror/archive/refs/tags/0.100.tar.gz",
+          "sha256": "5eaab304e9ef7358671eb969ef8995ee659995b33ca04ddd6a0a7bfb0d7e3466"
+        },
+        {
+          "type": "archive",
+          "url": "https://github.com/zeux/pugixml/archive/refs/tags/v1.16.tar.gz",
+          "sha256": "357bcab8877dc9943f355d3a72daba1b053238ba955f50fa81586afb65090219",
+          "dest": "pugixml"
+        },
+        {
+          "type": "archive",
+          "url": "https://github.com/itay-grudev/SingleApplication/archive/refs/tags/v3.5.3.tar.gz",
+          "sha256": "3b0ed428544c0b21cd7d3369468d3af544789fd0fbe31e493b7f311621acd7e9",
+          "dest": "SingleApplication"
+        },
+        {
+          "type": "archive",
+          "url": "https://github.com/qelectrotech/qelectrotech-elements/archive/3b12bc579b99932e3fe307ea1e44b8c1c6d1d5c9.tar.gz",
+          "sha256": "f05d3115ef5b8a67f9d73c11a59772dc429a51d705099d6fb9414eab954b6f58",
+          "dest": "elements"
+        },
+        {
+          "type": "archive",
+          "url": "https://github.com/jothepro/doxygen-awesome-css/archive/refs/tags/v2.3.4.tar.gz",
+          "sha256": "54d515327b559cd18c6f4d3e8a46e0facc635be1967fb69526f977285922960e",
+          "dest": "doxygen-awesome-css"
         },
         {
           "type": "patch",
